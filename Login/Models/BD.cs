@@ -26,6 +26,7 @@ public class BD
         return usuario;
     }
 
+
     public static void CambiarPassword(string username, string password)
     {
         using (SqlConnection db = new SqlConnection(ConnectionString))

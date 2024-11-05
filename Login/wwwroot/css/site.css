@@ -216,3 +216,25 @@ button:hover {
       font-size: 0.85rem;
   }
 }
+header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-to-index-button {
+  font-size: 2rem;
+  color: #3C5233;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 50%;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.back-to-index-button:hover {
+  color: #5F946A;
+}
+

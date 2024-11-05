@@ -9,43 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Login
 build_property.RootNamespace = Login
-build_property.ProjectDir = C:\Users\Tomas\OneDrive\Escritorio\TP9\TP9\Login\
+build_property.ProjectDir = c:\Users\Tomas\OneDrive\Escritorio\TP9\TP9\Login\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Tomas\OneDrive\Escritorio\TP9\TP9\Login
+build_property.MSBuildProjectDirectory = c:\Users\Tomas\OneDrive\Escritorio\TP9\TP9\Login
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Home/Bienvenida.cshtml]
+[c:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Home/Bienvenida.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCaWVudmVuaWRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Home/Index.cshtml]
+[c:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Home/Olvide.cshtml]
+[c:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Home/Olvide.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPbHZpZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Home/Registro.cshtml]
+[c:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Home/Registro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Shared/_Layout.cshtml]
+[c:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/_ViewImports.cshtml]
+[c:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/_ViewStart.cshtml]
+[c:/Users/Tomas/OneDrive/Escritorio/TP9/TP9/Login/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
