@@ -4,15 +4,22 @@
 
 <div class="container">
     <h2>Recuperar Contraseña</h2>
-
-    <form asp-action="Index" method="post">
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="error-message">@ViewBag.ErrorMessage</div>
+}
+    <form asp-action="ValidarOlvide" method="post">
         <div class="form-group">
             <label for="forgotUsername">Usuario:</label>
             <input type="text" id="forgotUsername" name="username" required />
         </div>
         <div class="form-group">
-            <label for="forgotPassword">Nueva Contraseña:</label>
-            <input type="password" id="forgotPassword" name="password" required />
+            <label for="mail">Correo electrónico:</label>
+            <input type="text" id="mail" name="mail" required/>
+        </div>
+        <div class="form-group">
+            <label for="pregunta">Escribe la palabra que pusiste al registrarte:</label>
+            <input type="text" id="pregunta" name="pregunta" required/>
         </div>
         <button type="submit" class="login-button">Cambiar Contraseña</button>
     </form>

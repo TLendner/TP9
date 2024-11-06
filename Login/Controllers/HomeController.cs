@@ -32,6 +32,21 @@ public class HomeController : Controller
                 return View("Bienvenida");
             }
         }
+        public IActionResult ValidarOlvide(string username, string mail, string pregunta)
+        {
+            var usuario = BD.MostrarOlvide(username, mail, pregunta);
+
+            if (usuario == null)
+            {
+                ViewBag.ErrorMessage = "Dato/s incorrectos";
+                return View("Olvide");
+            }
+            else
+            {
+                ViewBag.User = usuario.username;
+                return View("CambiarContraseña");
+            }
+        }
 
         public IActionResult Registrar()
         {
@@ -44,9 +59,16 @@ public class HomeController : Controller
         }
 
         [HttpPost]
-        public IActionResult GuardarUser(string username, string password, string mail)
+        public IActionResult GuardarUser(string username, string password, string mail, string pregunta)
         {
-            BD.AgregarUsuario(username, password, mail);
+            BD.AgregarUsuario(username, password, mail, pregunta);
+            return View("Index");
+        }
+
+        [HttpPost]
+        public IActionResult CrearNuevaContraseña(string username, string password)
+        {
+            BD.CambiarPassword(username, password);
             return View("Index");
         }
     }

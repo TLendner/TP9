@@ -1,0 +1,17 @@
+<form action='@Url.Action("CrearNuevaContraseña","Home")' method="post" onsubmit="return validarFormNuevaContraseña()">
+        <div class="form-group">
+            <h2>@ViewBag.User</h2>
+            <input type="hidden" name="User" value="@ViewBag.User" />
+        </div>
+        <div class="form-group">
+            <label for="password">Nueva Contraseña:</label>
+            <input type="password" class="form-control" id="password" name="PassWord" required onkeyup="validarPassword()" />
+
+            <div class="alert alert-info" role="alert" style="padding:.25rem .75rem;margin-top:5px;font-size:13px;">
+                <span style="color:red;" id="mensajeA">La contraseña debe contener al menos 8 caracteres</span><br>
+                <span style="color:red;" id="mensajeB">La contraseña debe contener al menos una mayúscula</span><br>
+                <span style="color:red;" id="mensajeC">La contraseña debe contener al menos un carácter especial</span>
+            </div>
+        </div>
+        <button class="login-button" type="submit">Ingresar</button>
+</form>

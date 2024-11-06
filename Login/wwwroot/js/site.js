@@ -33,3 +33,6 @@ function validarMail() {
 function validarForm() {
     return (validarPassword() && validarMail());
 }
+function validarForm() {
+    return (validarPassword());
+}
